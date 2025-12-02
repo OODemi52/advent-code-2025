@@ -13,7 +13,7 @@ fn main() {
     let day = &arguments[1];
 
     match day.as_str() {
-        "1" => day01::solution::run(),
+        "1" => day01::solution::part1(),
         _ => eprintln!("Invalid day passed."),
     }
 }

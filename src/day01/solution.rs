@@ -1,6 +1,6 @@
 use std::fs;
 
-pub fn run() -> () {
+pub fn part1() -> () {
     let input = fs::read_to_string("input/day01.txt").unwrap();
     // First thing is we need to parse out the input commands, line by line
     // First character will indicate the direction, L for left, R for right
