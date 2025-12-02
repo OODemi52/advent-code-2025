@@ -56,3 +56,5 @@ pub fn part1() -> () {
 
     println!("Password: {}", count);
 }
+
+fn part2() -> () {}
